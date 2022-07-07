@@ -7,10 +7,11 @@
   <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
     <mat-icon>What is this?</mat-icon>
   </button>
-  <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
-    <mat-icon>Register / Login</mat-icon>
-  </button>
+  <a routerLink="/login" mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+    <mat-icon></mat-icon>Register / Login
+  </a>
   <a routerLink="/admin" mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
     <mat-icon></mat-icon>Admin
   </a>
 </mat-toolbar>
+<router-outlet></router-outlet>
