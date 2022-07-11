@@ -19,10 +19,7 @@ export class MyErrorStateMatcher implements ErrorStateMatcher {
 export class LoginComponent implements OnInit {
   emailFormControl = new FormControl('', [Validators.required, Validators.email]);
   matcher = new MyErrorStateMatcher();
-  formLogin = {
-    username: '',
-    password: ''
-  }
+
   constructor() { }
 
   ngOnInit(): void {

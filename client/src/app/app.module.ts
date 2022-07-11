@@ -9,6 +9,7 @@ import {MatIconModule} from '@angular/material/icon';
 import { OverviewComponent } from './admin/components/overview/overview.component';
 import { LoginComponent } from './components/login/login.component';
 import {MatInputModule} from '@angular/material/input';
+import {MatButtonModule} from '@angular/material/button';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
@@ -26,7 +27,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     FormsModule,
     MatToolbarModule,
     MatIconModule,
-    MatInputModule
+    MatInputModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
